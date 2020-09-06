@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin: 1rem;
+  transition: all 0.5s;
+  box-shadow: 0px 5px 15px 0px rgb(235, 235, 235);
+}
+
+.card:hover {
+  transition: all 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 10px 26px 0px rgb(209, 209, 209);
+}
+
+.photo {
+  width: 200px;
+  border-radius: 10px 10px 0 0;
+  background-size: contain;
+}
