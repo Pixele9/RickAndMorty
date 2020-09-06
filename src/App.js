@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./styles.css";
 
 import Character from "./components/card";
+import Navbar from "./components/navbar";
 
 export default function App() {
   const [characters, setCharacters] = useState([]);
@@ -17,6 +18,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <Navbar />
       {characters.map((character) => {
         return (
           <Character
